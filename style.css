@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Trebuchet MS";
+  }
+
+  body {
+    margin: 0;
+    font-family: "Trebuchet MS";
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(63, 184, 214, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+
+  .header-right p {
+    line-height: 30px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+
+  .header-left p {
+    line-height: 30px;
+    padding: 0 -25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://img.freepik.com/free-vector/blue-fluid-background_53876-114597.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    opacity: 0.7;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color:blue;
+  }
+
+  .top-wrapper h2 {
+    opacity: 0.7;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color:blue;
+  }
+
+  .lesson-wrapper {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading h1 {
+    color:rgba(34, 111, 156)
+  }
+
+  .lessons {
+    text-align: left;
+  }
+
+  .lessons p{
+    text-align: justify;
+  }
+
+  .lessons h3 {
+    padding-bottom: 0%;
+  }
+
+  .lessons h4 {
+    padding-top: 0%;
+  }
+
+  .lessons li {
+    text-align: justify;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+
+  .twitter {
+    background-color:#165aee;
+    margin-right: 10px;
+  }
+  
+  .instagram {
+    background-color: rgb(206, 86, 86)
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+
+  footer p {
+    color: #b3aeb5;
+    font-size: 25px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
